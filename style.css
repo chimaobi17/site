@@ -4,25 +4,12 @@
 }
 
 
-*{
-  box-sizing: border-box !important;
-  max-width: 100% !important;
-}
 
 
-header, main, section, div, footer {
-    max-width: 100%;
-}
-img, .container-fluid, .row {
-    max-width: 100%;
-    height: auto;
-}
 
 body {
     background-image: radial-gradient(rgb(6, 23, 2), rgb(0, 0, 0));
     overflow-x: hidden !important;
-    position: relative !important;
-    width: 100% !important;
 }
 
 header {
