@@ -4,9 +4,25 @@
 }
 
 
+*{
+  box-sizing: border-box !important;
+  max-width: 100% !important;
+}
+
+
+header, main, section, div, footer {
+    max-width: 100%;
+}
+img, .container-fluid, .row {
+    max-width: 100%;
+    height: auto;
+}
+
 body {
     background-image: radial-gradient(rgb(6, 23, 2), rgb(0, 0, 0));
-    overflow-x: hidden;
+    overflow-x: hidden !important;
+    position: relative !important;
+    width: 100% !important;
 }
 
 header {
@@ -24,14 +40,14 @@ header {
 }
 
 .p-6 {
-    position: absolute !important;
-    top: 45px !important;
+    position: absolute;
+    top: 45px;
     right: 20px;
 }
 
 .p-7 {
-    position: absolute !important;
-    top: 78px !important;
+    position: absolute;
+    top: 78px;
     right: 50px;
 }
 
@@ -75,17 +91,16 @@ header {
 
 .circle {
     position: absolute;
-    left: 1150px;
+    left: calc(100% - 140px); /* 120px width + 20px margin from right */
     top: 2180px;
     width: 120px;
     height: 120px;
     border-radius: 50%;
     background: #464545;
-    margin-right: 90px;
     z-index: -2;
-    animation: pulse 3s infinite ease-in-out;
-    animation: pulse1 3s infinite ease-in-out;
+    animation: pulse 3s infinite ease-in-out, pulse1 3s infinite ease-in-out;
 }
+
 
 @keyframes pulse {
     0% {
