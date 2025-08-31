@@ -3,10 +3,6 @@
     --secondary-color: rgb(6, 53, 2);
 }
 
-
-
-
-
 body {
     background-image: radial-gradient(rgb(6, 23, 2), rgb(0, 0, 0));
     overflow-x: hidden !important;
