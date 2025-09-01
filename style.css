@@ -3,6 +3,14 @@
     --secondary-color: rgb(6, 53, 2);
 }
 
+img{
+ max-width: 100% !important;
+}
+
+section, .container, .container-fluid, .card {
+    max-width: 100% !important;
+    overflow: hidden !important;
+}
 
 body {
     background-image: radial-gradient(rgb(6, 23, 2), rgb(0, 0, 0));
@@ -10,7 +18,7 @@ body {
 }
 
 
-header, .hero {
+.hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://i.pinimg.com/736x/a6/2b/d5/a62bd57e6625611c4d8034b754bc3ae2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
