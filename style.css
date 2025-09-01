@@ -10,7 +10,7 @@ body {
 }
 
 
-header {
+header, .hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://i.pinimg.com/736x/a6/2b/d5/a62bd57e6625611c4d8034b754bc3ae2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
