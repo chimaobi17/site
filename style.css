@@ -3,10 +3,12 @@
     --secondary-color: rgb(6, 53, 2);
 }
 
+
 body {
     background-image: radial-gradient(rgb(6, 23, 2), rgb(0, 0, 0));
     overflow-x: hidden !important;
 }
+
 
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://i.pinimg.com/736x/a6/2b/d5/a62bd57e6625611c4d8034b754bc3ae2.jpg");
@@ -76,8 +78,8 @@ header {
     position: absolute;
     left: calc(100% - 140px); /* 120px width + 20px margin from right */
     top: 2180px;
-    width: 120px;
-    height: 120px;
+    width: 420px;
+    height: 420px;
     border-radius: 50%;
     background: #464545;
     z-index: -2;
@@ -150,3 +152,9 @@ header {
 
 /*what type of server is gitub, vpss hosting?
 how to access version control on git*/
+
+@media (max-width: 575px){
+    .offcanvas-end{
+        width: 50vw !important;
+    }
+}
